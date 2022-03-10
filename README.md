@@ -127,6 +127,6 @@ Após a primeira pesquisa com potenciais usuários e mapeamento das suas necessi
 
 ## 9. Desenvolvedoras
 
-<h2><a style="color:purple" href="https://github.com/daianeoltramari">Daiane Oltramari</a></h2> e <a style="color:purple" href="https://github.com/lalaonde" target="_blank">Layssa Aragão</a>
+<h2><a style="color:purple" href="https://github.com/daianeoltramari" target="_blank">Daiane Oltramari</a> e <a style="color:purple" href="https://github.com/lalaonde">Layssa Aragão</a></h2>
 
 ![Final](https://media.giphy.com/media/Qs0QEnugOy0xIsFkpD/giphy.gif)
