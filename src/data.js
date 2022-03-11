@@ -26,10 +26,11 @@ export const speciesFilter = (data, condition) => {
 };
 
 export const orderAlfaFilter = (data, order) => {
+  const newArray =[...data]
   if (order === "a-z") {
-    return data.sort((a, z) => (a.name > z.name ? 1 : -1));
+    return newArray.sort((a, z) => (a.name > z.name ? 1 : -1));
   } else {
-    return data.sort((a, z) => (a.name > z.name ? -1 : 1));
+    return newArray.sort((a, z) => (a.name > z.name ? -1 : 1));
   }
 };
 
