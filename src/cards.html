@@ -10,10 +10,12 @@
     <title>Portal</title>
   </head>
   <body>
+    <nav class="button-menu">
+      <a class="pag" type="button" href="index.html" ><span class="sobre">Home</span></a>
+      <a class="pag" type="button" href="quotes.html"><span class="frase">Frases</span></a>
+      <a class="pag" type="button" href="about-us.html" ><span class="sobre">Sobre</span></a>
+  </nav>
     <header id="top">
-      <div class="bannr">
-        <p class="devs">Desenvolvido por Layssa Aragão e Daiane Oltramari</p>
-      </div>
       <div class="logo">
         <a href="index.html">
           <img
@@ -26,19 +28,19 @@
     </header>
 
     <nav class="nav-filtros">
-      <select name="gender" title="filtros-genero" class="filtros" id="gender-filter">
+      <select title="filtros-genero" class="filtros" id="gender-filter">
         <option value="" selected hidden>Gênero</option>
         <option value="Male">Masculino</option>
         <option value="Female">Feminino</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select  name="status" title="filtros-stat" class="filtros" id="status-filter">
+      <select  title="filtros-stat" class="filtros" id="status-filter">
         <option value="" selected hidden>Status</option>
         <option value="Alive">Vivo</option>
         <option value="Dead">Morto</option>
         <option value="unknown">Desconhecido</option>
       </select>
-      <select name="species" title="filtros-espec" class="filtros" id="species-filter">
+      <select  title="filtros-espec" class="filtros" id="species-filter">
         <option value="" selected hidden>Espécie</option>
         <option value="Alien">Alien</option>
         <option value="Animal">Animal</option>

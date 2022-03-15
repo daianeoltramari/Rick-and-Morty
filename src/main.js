@@ -1,8 +1,8 @@
 import {
   genderFilter,
   statusFilter,
-  speciesFilter,
   orderAlfaFilter,
+  speciesFilter,
   percentCalc,
   searchName,
 } from "./data.js";
@@ -36,6 +36,7 @@ showCards(data.results);
 const selecaoGenero = document.getElementById("gender-filter");
 const statusSelect = document.getElementById("status-filter");
 const speciesSelect = document.getElementById("species-filter");
+// const genStatSpec = document.getElementByClass("Daiane")
 const orderSelectAz = document.getElementById("alfa-order-filter");
 const texto = document.getElementById("porcentagem-filtro");
 const searchCharacterName = document.getElementById("text-search");
@@ -90,3 +91,14 @@ function searchCharacterNames(e) {
   return showCards(charactersName);
 }
 searchCharacterName.addEventListener("keyup", searchCharacterNames);
+
+/* function printSelectorsResult(e) {
+  const filterResult = filterData(
+    data.results,
+    e.target.name,
+    e.target.value
+  );
+  return showCards(filterResult);
+}
+genStatSpec.addEventListener("change", printSelectorsResult);
+*/

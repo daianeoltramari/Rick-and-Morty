@@ -22,8 +22,13 @@ Por meio do site, o usuário tem a experiência de navegar pelo o universo dos s
 
 Para fornecer tal experiência, utilizamos o consumo e manipulação da API rickandmorty.js.
 
-![Boas Vindas](https://media.giphy.com/media/BZ2ASxIUUljjtSkwoD/giphy.gif)
+![Boas Vindas](https://media.giphy.com/media/AkHxaxefQOsCH0Qq2j/giphy.gif)
 ![Pagina boas vindas](https://media.giphy.com/media/Qtacv6vkkiUE4udtEG/giphy.gif)
+
+### Acesso ao site
+
+Clique <a href="https://lalaonde.github.io/SAP007-data-lovers/" target="_blank" title="Clique aqui!">aqui</a> ou escanei o QR Code a baixo.<br>
+<img alt="QRcode" src="img-readme/qrcode.png" width="200px">
 
 ---
 
@@ -32,6 +37,8 @@ Para fornecer tal experiência, utilizamos o consumo e manipulação da API rick
 Ao navegar pelas redes sociais, grupos de interação e hashtags, percebemos que, claro, exsitem muitas informações acerca do desenho, no entanto dispersas. Por isso, afim de concentrar os dados num único local, como uma biblioteca, e facilitar a vida dos fãs, idealizamos o "Portal Rick and Morty".
 
 Para orientar a nossa ideia e construção do código, foram escritas as histórias do usuário a seguir.
+
+Para cada história do usuário utilizamos os [5. Testes unitários](#5-testes-unitários) como definição de pronto.
 
 ### 3. Histórias do usuário
 
@@ -97,6 +104,8 @@ Uitlizamos o site coolors.com para sua criação.
 
 Os testes unitários foram desenvolvidos para fazer com que o projeto rode adequadamente, nele você consegue verificar se cada função está dando o retorno esperado.
 
+<img alt="Teste" src="img-readme/testes-data.png" width="400px">
+
 ---
 
 ## 6. Teste de usabilidade
@@ -127,6 +136,6 @@ Após a primeira pesquisa com potenciais usuários e mapeamento das suas necessi
 
 ## 9. Desenvolvedoras
 
-<h2><a style="color:purple" href="https://github.com/daianeoltramari" target="_blank">Daiane Oltramari</a> e <a style="color:purple" href="https://github.com/lalaonde">Layssa Aragão</a></h2>
+<h2><a style="color:purple" href="https://github.com/daianeoltramari" target="_blank">Daiane</a> e <a style="color:purple" href="https://github.com/lalaonde">Layssa Aragão</a></h2>
 
 ![Final](https://media.giphy.com/media/Qs0QEnugOy0xIsFkpD/giphy.gif)

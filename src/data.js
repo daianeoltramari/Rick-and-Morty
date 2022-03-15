@@ -4,12 +4,13 @@ export const genderFilter = (data, condition) => {
   );
 
   return genderResult;
-};
+}; 
 
 export const percentCalc = (total, fractionItem) => {
   const percentage = Math.round((fractionItem * 100) / total);
   return percentage;
 };
+
 
 export const statusFilter = (data, condition) => {
   const statusResult = data.filter(
@@ -17,6 +18,7 @@ export const statusFilter = (data, condition) => {
   );
   return statusResult;
 };
+
 
 export const speciesFilter = (data, condition) => {
   const speciesResult = data.filter(
@@ -40,3 +42,6 @@ export const searchName = (data, condition) => {
   );
   return result;
 };
+
+
+
